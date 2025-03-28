@@ -271,15 +271,13 @@ h6,
     padding: 16rem 0 0 0;
     background:
         url(../img/bg-circle.png),
-        url(../img/bg-triangle.png),
         url(../img/bg-bottom.png),
         linear-gradient(135deg, #6e45e2 0%, #88d3ce 100%);
     background-position:
         left 0px top 0px,
-        right 0px top 50%,
         center bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain, contain, cover;
 }
 
 @media (max-width: 991.98px) {
